@@ -1,0 +1,524 @@
+﻿@import 'reset.css';
+
+body {
+}
+
+#container {
+    width: 99%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid grey;
+}
+
+#header {
+    width: 99%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+#topBar {
+    width: 100%;
+    height: 30px;
+    background-color: #FFCC01;
+    text-align: right;
+    font-family: Verdana;
+    font-size: 10pt;
+    background-image: url(../images/h31.png);
+}
+
+#bLeft {
+    width: 175px;
+    margin: 0;
+    min-height: 350px;
+    height: auto;
+    float: left;
+}
+
+#bRight {
+    margin: 0 0 0 176px;
+    border-left: 1px solid #FFCC01;
+}
+
+#pageTitle {
+    height: 25px;
+    color: White;
+    background-color: #0265CB;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 10pt;
+    margin: 10px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.subTitle {
+    padding: 0px 4px 0px 0px !important;
+    border-bottom: 1px solid red;
+}
+
+.PanelClass {
+    Width: 100%;
+    Height: 350px;
+}
+
+#pcard {
+    cursor: auto;
+    width: 220px;
+    float: right;
+    height: 130px;
+    z-index: 300;
+    background: url(../images/pcard.png) top center no-repeat;
+}
+
+#scard {
+    cursor: auto;
+    width: 100px;
+    float: right;
+    height: 130px;
+    z-index: 300;
+    margin-right: 20px;
+    background: url(../images/pureforsure.png) top center no-repeat;
+}
+
+#bcard {
+    cursor: auto;
+    width: 360px;
+    float: right;
+    height: 170px;
+    z-index: 300;
+    background: url(../images/bmlm1.png) top center no-repeat;
+}
+
+#bcard1 {
+    cursor: auto;
+    width: 250px;
+    float: right;
+    height: 100px;
+    z-index: 300;
+    background: url(../images/bmlm1.png) top center no-repeat;
+}
+
+#logo {
+    cursor: pointer;
+    width: 200px;
+    float: left;
+    height: 180px;
+    margin-left: -23px;
+    z-index: 300;
+    background: url(../images/newlogo.jpg) top center no-repeat;
+}
+
+#footer {
+    background-color: #2A2A2A;
+    height: 70px;
+    border-top: solid 5px #0C0C0C;
+}
+
+    #footer .f_cntnt {
+        width: 950px;
+        margin: 0 auto;
+        padding-top: 0;
+        line-height: 1.4em;
+        color: #666;
+    }
+
+.infoTable {
+    border: 1px solid #333333;
+    font-family: Verdana;
+    font-size: small;
+    background-color: white;
+    width: 90%;
+    margin: 5px 5px 5px 5px;
+}
+
+.mainTable {
+    border: 1px solid #333333;
+    font-family: Verdana;
+    font-size: small;
+    background-color: white;
+    width: 90%;
+    margin: 5px 5px 5px 5px;
+}
+
+.infoTable td {
+    font-family: Verdana;
+    font-size: x-small;
+    color: black;
+}
+
+.tableHeading {
+    background-image: url("../../images/bullet.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 30px;
+    color: Black;
+    font-weight: Bold;
+    word-spacing: 2px;
+    height: 20px;
+    border-bottom: #333333 1px solid;
+    vertical-align: middle;
+}
+
+.headerBg {
+    background-color: #14ABF2;
+}
+
+.header_top_bg {
+    background: url(../images/header_top_bg.gif) left top repeat-x;
+    background-color: #a47cc9;
+    margin: 0px;
+    padding: 0px;
+}
+
+.formTitle {
+    font-family: Verdana;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    padding-left: 25px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #0265CB;
+    background-image: url(h31.png);
+    background-repeat: repeat-x;
+    word-spacing: 0em;
+    height: 32px;
+}
+
+.vrdana12 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+.signup {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #804389;
+    text-decoration: none;
+}
+
+.repOdd {
+    font-family: Verdana;
+    font-size: xx-small;
+    background-color: #E7E7FF;
+    color: #4A3C8C;
+    line-height: 20px;
+}
+
+.repEven {
+    font-family: Verdana;
+    font-size: xx-small;
+    background-color: #F7F7F7;
+    color: #4A3C8C;
+    line-height: 20px;
+}
+
+.right {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #A19D9D;
+    background-image: url(../images/head_bg.jpg);
+    /*background-image:url(../Images/MenuBack.jpg);#059BD8;  background-color:#DBD3D3;*/
+    color: green;
+    height: auto;
+    text-align: left;
+    width: 100%;
+    font-family: Verdana;
+    font-size: small;
+    font-weight: 400;
+    color: White;
+}
+
+.repHeader {
+    font-family: Verdana;
+    font-size: x-small;
+    text-align: Center;
+    color: White;
+    font-weight: normal;
+    height: 25px;
+    /*background-image: url(but_bar.gif);*/
+    background-color: #0265CB;
+}
+
+    .repHeader a {
+        color: white;
+        text-align: Center;
+        text-decoration: none;
+    }
+
+.repFooter {
+    font-family: Verdana;
+    font-size: x-small;
+    color: white;
+    background-color: #0265CB;
+    line-height: 30px;
+}
+
+.repPage {
+    /*
+	font-family: Verdana;
+	font-size: x-small;
+	text-align: Center;
+	color: white;
+	font-weight: normal;
+	height: 25px;
+	background-color: #cccc66;
+	*/
+    /*
+	background: url(rep-footer.gif);
+	background-repeat: repeat-x;
+	*/
+    font-family: Verdana;
+    font-size: x-small;
+    color: Black;
+    height: 15px;
+    vertical-align: middle;
+    background-color: #E7E7FF;
+}
+
+.button {
+    background-color: #FFCC01;
+    color: Blue;
+}
+
+.grdHeader {
+    background-color: #FFCC01;
+}
+
+.bg_grey {
+    background-color: #d6e9ff;
+}
+
+.bg_pale {
+    background-color: #ffc;
+    border-bottom: solid 1px #ccc;
+}
+
+.border1 {
+    background-image: url(../images/bbg_1.gif);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.border2 {
+    background-image: url(../images/bbg_2.gif);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.border3 {
+    background-image: url(../images/bbg_3.jpg);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.border4 {
+    background-image: url(../images/bbg_4.jpg);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.border5 {
+    background-image: url(../images/bbg_5.jpg);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.border6 {
+    background-image: url(../images/bbg_avail.png);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.diamond {
+    background-image: url(../images/bbg_1.gif);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: White;
+}
+
+.success {
+    background-image: url(../images/bbg_2.gif);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: White;
+}
+
+.currentborderd1 {
+    background-image: url(../images/bbg.gif);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: YELLOW;
+    border-right-color: YELLOW;
+    border-bottom-color: YELLOW;
+    border-left-color: YELLOW;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: #000000;
+}
+
+.currentborderd {
+    background-image: url(../images/bbg.gif);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: YELLOW;
+    border-right-color: YELLOW;
+    border-bottom-color: YELLOW;
+    border-left-color: YELLOW;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: #000000;
+}
+
+.currentborderd_D {
+    background-image: url(../images/bbg_1.gif);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: YELLOW;
+    border-right-color: YELLOW;
+    border-bottom-color: YELLOW;
+    border-left-color: YELLOW;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: White;
+}
+
+.currentborderd_S {
+    background-image: url(../images/bbg_2.gif);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: YELLOW;
+    border-right-color: YELLOW;
+    border-bottom-color: YELLOW;
+    border-left-color: YELLOW;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: White;
+}

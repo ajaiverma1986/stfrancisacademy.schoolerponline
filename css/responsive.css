@@ -1,0 +1,1437 @@
+.dashboard-boxes {
+    background: none repeat scroll 0 0 #F5FDFF;
+    position: relative;
+    float: left;
+    color: #fff;
+    border-left: 5px solid #25405d;
+    font-weight: bold;
+    min-height: 135px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /*border-bottom: 2px dotted #C9C6C6;*/
+    padding: 8px;
+    background: #39cdfb;
+    font-weight: 500;
+    width: 22%;
+    font-size: 12px;
+    line-height: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.stu-detail {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.batch-detail {
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+
+.in-student-grid {
+    margin: 1px 12px 5px 0px;
+}
+
+.dashoard-main-div {
+    width: 1100px;
+    height: auto;
+}
+
+.dashboard-margin {
+    float: left;
+}
+
+.dashboard-menu {
+    background: url('../images/dashboard.png') no-repeat 13px center;
+    display: block;
+    padding: 13px 25px 13px 42px;
+    font-weight: bold;
+    color: #34495e;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.dashboard-boxes h3 {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    height: 35px;
+    color: #013868;
+    padding: 0px;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    border-bottom: 1px dashed #5f8cbc;
+}
+
+    .dashboard-boxes h3 img {
+        width: 30px;
+        float: left;
+        margin-right: 5px;
+    }
+
+.dashboard-search {
+    float: right;
+    width: auto;
+    margin-top: 5px;
+}
+
+    .dashboard-search input[type="text"] {
+        padding: 5px 7px;
+    }
+
+    .dashboard-search .view-enquiry {
+        padding: 6px 9px;
+        float: right;
+        display: block;
+        margin-left: 5px;
+    }
+
+#content_pane {
+    padding: 10px;
+}
+
+#checkaction .blank-label {
+    width: 150px !important;
+    float: left;
+}
+
+#checkaction {
+    margin-left: 15px;
+}
+
+.add-inq-2 {
+    float: right;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.add-mob {
+    display: none;
+}
+
+.addmorecontact {
+    width: 20px;
+    height: 20px;
+    margin-top: -8px !important;
+}
+
+.dowload-icon {
+    float: left;
+    margin-left: 20px;
+}
+
+.divTableDataHolder {
+    min-width: 1024px;
+}
+
+.searchbar {
+    margin: 7px 0;
+    min-width: 1036px;
+}
+
+    .searchbar select {
+        color: #999;
+    }
+
+    .searchbar input-placeholder::before {
+        color: #999;
+    }
+
+    .searchbar ::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .searchbar ::-moz-placeholder { /* Firefox 19+ */
+        color: #999;
+    }
+
+    .searchbar label {
+        margin-top: 6px;
+        float: left;
+        margin-right: 8px;
+        font-size: 12px;
+    }
+
+    .searchbar input[type="checkbox"] {
+        margin-top: 0px;
+        float: left;
+    }
+
+.stm_head input[type="checkbox"] {
+    margin-top: 7px;
+    float: left;
+}
+
+.stm_head label {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.heading-button {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3ebaeb;
+    color: #3ebaeb;
+    outline: none;
+}
+
+#checkaction label {
+    width: 75px !important;
+}
+
+.ti_tx input {
+    width: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 3px !important;
+}
+
+.mi_tx input {
+    width: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 3px !important;
+}
+
+.mer_tx input {
+    width: 30px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 3px !important;
+}
+
+#ctl00_ContentPlaceHolder1_Grid_Calender th {
+    background-color: green;
+    color: white !important;
+    font-size: 20px !important;
+}
+
+#ctl00_ContentPlaceHolder1_Grid_Calender td {
+    border-left: 2px solid #CDCDCD !important;
+}
+
+#ctl00_ContentPlaceHolder1_Grid_Calender {
+    border: 2px solid #CDCDCD !important;
+}
+
+.activesetattendance {
+    border-color: #2d9fdd!important;
+    border-width: medium;
+    background: #F7F7F7;
+    color: #2d9fdd!important;
+    padding: 5px 13px 5px 13px;
+    margin-left: 10px;
+    height: auto;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.blankheading {
+    margin-left: 12px;
+}
+
+.no-record-found {
+    color: red;
+    margin-left: 10px !important;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#contentPane {
+}
+
+.button-bg-none {
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.ti_tx, .mi_tx, .mer_tx {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.timepickerintime, .timepickerouttime {
+    padding-left: 5px !Important;
+    padding-top: 2px !Important;
+    padding-bottom: 2px !Important;
+}
+
+.ui-datepicker-calendar th span {
+    color: black !important;
+}
+
+.time, .mins, .meridian {
+    width: 60px;
+    float: left;
+    margin: 0px 10px;
+    font-size: 20px;
+    color: #2d2e2e;
+    font-family: 'arial';
+    font-weight: 700;
+}
+
+.prev, .next {
+    cursor: pointer;
+    padding: 18px;
+    width: 28%;
+    border: 1px solid #ccc;
+    margin: auto;
+    border-radius: 5px;
+    background: url(../images/arrow.png) no-repeat;
+}
+
+    .prev:hover, .next:hover {
+        background-color: #ccc;
+    }
+
+.next {
+    background-position: 50% 150%;
+}
+
+.prev {
+    background-position: 50% -50%;
+}
+
+.time_pick {
+    position: relative;
+}
+
+.timepicker_wrap {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(50, 50, 50, 0.35);
+    display: none;
+    float: left;
+    left: 214px !important;
+    margin-top: -20px;
+    padding: 10px;
+    position: absolute;
+    width: 240px;
+    z-index: 2;
+}
+
+.arrow_top {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 18px;
+    height: 10px;
+    z-index: 3;
+    background: url(../images/top_arr.png) no-repeat;
+}
+
+.showpopup #content {
+    overflow: auto;
+    height: 530px;
+    max-height: 700px;
+    margin-top: 10px;
+}
+
+.showpopup {
+    background: none repeat scroll 0 0 #fff;
+    border: 10px solid #ddd;
+    border-right: 0px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.32);
+    color: #000;
+    font-family: sans-serif;
+    left: 50%;
+    margin-left: -550px;
+    opacity: 1;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 1110px;
+    z-index: 100;
+    height: 550px;
+    top: 50%;
+    margin-top: -300px;
+}
+
+    .showpopup td {
+        vertical-align: top;
+        color: #666666;
+    }
+
+.new-registration .sub-heading {
+    margin: 10px auto;
+    border-bottom: 1px dashed #3ebaeb;
+    color: #3ebaeb;
+}
+
+.new-registration input[type="radio"] + label {
+    margin: 0px 5px 0px 0;
+    padding: 0px;
+    width: auto !important;
+    display: block !important;
+}
+
+.new-registration input[type="radio"] {
+    margin: 2px 5px 0px 0;
+    float: left;
+}
+
+.new-registration .student-photo_frame {
+    height: auto;
+    width: 100%;
+    background: #F4F1F1;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.new-registration .for_sigle_row_form select {
+    width: 360px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+.new-registration .for_sigle_row_form label {
+    width: 220px;
+}
+
+.new-registration .for_sigle_row_form input[type="text"] {
+    width: 345px;
+}
+
+.new-registration .for_sigle_row_form input[type="password"] {
+    width: 345px;
+}
+
+.new-registration .for_sigle_row_form textarea {
+    width: 345px;
+}
+
+.idcard-setting {
+    float: right;
+    margin: 6px 15px 0 0;
+}
+
+    .idcard-setting span {
+        color: #333;
+        font-size: 12px;
+        padding-right: 6px;
+        margin-left: 15px;
+    }
+
+.idcard-setting-radio {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding-top: 3px;
+}
+
+    .idcard-setting-radio table {
+        float: left;
+    }
+
+    .idcard-setting-radio input[type="radio"] {
+        float: left;
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+
+        .idcard-setting-radio input[type="radio"] + label {
+            float: left;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+.uploadin-form {
+    width: 357px;
+    border: 1px solid;
+    border-color: #ccc;
+    margin-left: 239px;
+    height: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.new-registration .user_phot_frame {
+    left: 60%;
+    margin-top: -31px;
+    position: absolute;
+}
+
+.new-registration .texthover {
+    border: dotted 1px white !important;
+    background-color: #FD3018 !important;
+    color: white !important;
+}
+
+.new-registration .three-cols-form input[type="text"] {
+    width: 103px;
+}
+
+.dob-formate {
+    color: #333;
+    font-size: 12px;
+    padding-left: 13px;
+}
+
+.new-registration .select-two-row select {
+    width: 177px;
+}
+
+.new-registration .select-two-row input[type="text"] {
+    width: 164px;
+}
+
+.hyperdelete {
+    background: #f39c12 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 7px;
+    text-decoration: none;
+    float: right;
+    margin: 40px 13px 0 0;
+    cursor: pointer;
+}
+
+.small-grid-r {
+    float: right;
+    width: 49.5%;
+    margin-top: 10px;
+}
+
+.small-grid-l {
+    float: left;
+    width: 49.5%;
+    margin-top: 10px;
+}
+
+.multigrid table {
+    margin-bottom: 10px;
+}
+
+.containerHeadline {
+    background: none repeat scroll 0 0 #f5f5f5;
+    position: relative;
+    color: #087c98 !important;
+    font-size: 14px;
+    height: auto;
+    padding-left: 10px;
+    font-weight: bold;
+    /*top: 25px;*/
+    left: 0px;
+}
+
+.branch-div-tbl .tbl-top-heading h2 {
+    color: rgb(79, 79, 79);
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 12px;
+}
+
+.enquiry-distri {
+    margin-left: 10px !important;
+}
+
+.student-photo_frame1 {
+    background: #fff;
+    height: 95px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0px 10px 10px;
+}
+
+.student-detail {
+    float: left;
+    width: 77%;
+}
+
+.popup-inslide {
+    margin-top: 20px;
+}
+
+.set-sub {
+    margin-left: 240px;
+    margin-top: -10px;
+}
+
+.login-url {
+    margin-top: 6px;
+    float: left;
+}
+
+.showpopupemployeedetails {
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.32);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    opacity: 1;
+    display: block;
+    padding-bottom: 8px !important;
+    top: 10%;
+    width: 70%;
+    border: 1px solid #3cb8ea;
+    background: #F6F6F6 !important;
+    overflow-style: scrollbar;
+}
+
+@media screen and (max-width:1280px) {
+    .dashboard-boxes {
+        width: 21%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .grid-data-resposive {
+        width: 770px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .showpopup {
+        width: 950px;
+        margin-left: -475px;
+    }
+
+    .enquiry-overview {
+        display: none;
+    }
+
+    .input_content {
+        padding-bottom: 0px;
+    }
+
+    .for_sigle_row_form label {
+        display: none;
+    }
+
+    .radio-label, .labelfor_radio, .radio-button-res label {
+        display: block !important;
+        float: left !important;
+    }
+
+    .searchbar .itemdisplaynone {
+        display: none;
+    }
+
+    #content_pane {
+        padding: 5px;
+    }
+
+    .for_sigle_row_form {
+        margin: 0px 5px;
+    }
+
+    .popupinner-div {
+        width: 100% !important;
+        margin-top: 0px;
+    }
+
+        .popupinner-div input[type="radio"] {
+            float: left;
+            margin-top: 0px;
+            margin-right: 3px;
+        }
+
+    .for_sigle_row_form select {
+        width: 99.5%;
+    }
+
+    .for_sigle_row_form input[type="text"], input[type="select"], input[type="Password"] {
+        width: 96.5%;
+    }
+
+    .for_sigle_row_form textarea {
+        width: 96.5%;
+    }
+
+    .new-registration .for_sigle_row_form select {
+        width: 99.5%;
+    }
+
+    .new-registration .for_sigle_row_form input[type="text"] {
+        width: 96.5%;
+    }
+
+    .new-registration .for_sigle_row_form textarea {
+        width: 96.5%;
+    }
+
+    .uploadin-form {
+        width: 99%;
+        border: 1px solid;
+        border-color: #ccc;
+        height: 24px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .add-inq-2 {
+        float: left;
+        padding: 0px;
+    }
+
+    .add-mob {
+        display: block;
+        float: left;
+        margin-top: 7px;
+        font-weight: normal;
+    }
+
+    .addmorecontact {
+        width: 20px;
+        height: 20px;
+        margin-top: 8px !important;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #content_pane {
+        width: 97%;
+    }
+
+    .grid-data-resposive {
+        width: 730px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .enquiry-overview {
+        display: none;
+    }
+
+    .dashboard-boxes {
+        width: 20.8%;
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 21.8%;
+    }
+
+    #left_pane {
+        width: 21%;
+    }
+
+    .mailbox_text {
+        width: 65%;
+    }
+
+    .branchbox {
+        height: auto;
+    }
+
+        .branchbox a {
+            margin-right: 10px;
+        }
+}
+
+@media screen and (max-width:800px) {
+    #content_pane {
+        width: 97%;
+    }
+
+    .grid-data-resposive {
+        width: 550px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    #left_pane {
+        width: 24%;
+    }
+
+    .logo {
+        width: 24.5%;
+    }
+
+    .dashboard-boxes {
+        width: 45.4%;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .dashboard-margin {
+        float: right;
+        margin-right: 0px;
+    }
+
+    .mailbox_text {
+        width: 55%;
+    }
+
+    .uploadin-form {
+        margin-left: 0;
+    }
+
+    .new-registration .select-two-row select {
+        margin-bottom: 10px;
+    }
+
+    .select-shool {
+        margin-top: 10px;
+    }
+
+    .student-notifi {
+        display: none;
+    }
+
+    .mailbox_text {
+        width: 70%;
+    }
+
+    .regis-notifi {
+        display: none;
+    }
+
+    #left_pane {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .logo img {
+        margin-top: 20px;
+    }
+
+    .left_pane {
+        padding-top: 0px;
+    }
+
+    .dashboard-boxes {
+        min-height: 120px;
+    }
+
+    .responsive-menu {
+        background: #dd1533 url(../images/reponsive-menu-icon.png) center center no-repeat;
+        border: 1px solid #fff;
+        padding: 13px 18px;
+        border-radius: 3px;
+        float: right;
+        margin-top: 18px;
+        margin-right: 10px;
+    }
+
+    .for_sigle_row_form label {
+        display: none;
+    }
+
+    .radio-label, .labelfor_radio, .radio-button-res label {
+        display: block !important;
+        float: left !important;
+    }
+
+    #content_pane {
+        padding: 5px;
+    }
+
+    .for_sigle_row_form {
+        margin: 0px 5px;
+    }
+
+        .for_sigle_row_form select {
+            width: 99.5%;
+        }
+
+        .for_sigle_row_form input[type="text"], input[type="select"], input[type="Password"] {
+            width: 96.5%;
+        }
+
+        .for_sigle_row_form textarea {
+            width: 96.5%;
+        }
+
+    .new-registration .for_sigle_row_form select {
+        width: 99.5%;
+    }
+
+    .new-registration .for_sigle_row_form input[type="text"] {
+        width: 96.5%;
+    }
+
+    .new-registration .for_sigle_row_form textarea {
+        width: 96.5%;
+    }
+
+    .uploadin-form {
+        width: 99%;
+        border: 1px solid;
+        border-color: #ccc;
+        height: 24px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .three-cols-form {
+        margin-top: 0px;
+    }
+
+    .new-registration .three-cols-form input[type="text"] {
+        width: 96.5%;
+        margin-bottom: 10px;
+    }
+
+    .df0 {
+        display: none;
+    }
+
+    .popupinner-div {
+        width: 100% !important;
+        margin-top: 0px;
+    }
+
+        .popupinner-div input[type="radio"] {
+            float: left;
+            margin-top: 0px;
+            margin-right: 3px;
+        }
+
+    #checkaction .blank-label {
+        width: 165px !important;
+        float: left;
+        display: none;
+    }
+
+    .popupinner-div input[type="submit"] {
+        float: none;
+        width: 90%;
+        margin: 0px auto;
+        display: block;
+    }
+
+    .add-inq-2 {
+        float: left;
+        padding: 0px;
+    }
+
+    .add-mob {
+        display: block;
+        float: left;
+        margin-top: 11px;
+        font-weight: normal;
+        margin-right: 4px;
+    }
+
+    .addmorecontact {
+        width: 20px;
+        height: 20px;
+        margin-top: 8px !important;
+    }
+
+    .dowload-icon {
+        margin-right: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    .new-registration .user_phot_frame {
+        display: none;
+    }
+
+    .showpopup {
+        width: 700px;
+        margin-left: -350px;
+    }
+
+    .pager-display-none {
+        display: none;
+    }
+
+    .dob-formate {
+        display: none;
+    }
+
+    .showpopupemployeedetails {
+        width: 93%;
+        overflow: auto;
+    }
+
+    .popup-responsive-div {
+        overflow: auto;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #content_pane {
+        width: 97%;
+    }
+
+    .grid-data-resposive {
+        width: 505px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .small-grid-tbl {
+        border-right: 1px solid #ddd;
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .content_top {
+        display: none;
+    }
+
+    #content_pane {
+        width: 97.5%;
+    }
+
+    .grid-data-resposive {
+        width: 508px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .dashboard-boxes {
+        width: 44.2%;
+    }
+
+    .branchbox input[type="image"] {
+        height: 59px;
+        margin: 20px 10px 4px 4px;
+        width: 60px;
+    }
+
+    .branchbox h5 {
+        font-size: 11px;
+    }
+
+    .branchbox p {
+        font-size: 11px;
+        display: block;
+        float: none;
+    }
+
+    .mailbox_text {
+        width: 69%;
+    }
+
+    .dashboard-menu {
+        margin-left: 1px;
+        padding: 19px 25px 18px 36px;
+        font-size: 13px;
+    }
+
+    .student-detail {
+        float: left;
+        width: 60%;
+    }
+
+    .only-for-student .itemdisplaynone {
+        display: none;
+    }
+
+    .only-for-student {
+        min-width: 400px !important;
+    }
+
+    .conductedlecture234 {
+        width: 42.2%;
+        margin: 5px 0px 5px 5px;
+    }
+
+    .user-deatils1 {
+        float: left;
+        font-size: 12px;
+        width: 87%;
+    }
+
+    .radio-table {
+        margin-left: 10px !important;
+    }
+
+    .set-sub {
+        margin-left: 10px;
+    }
+
+    .login-url {
+        margin-top: -14px;
+        float: left;
+    }
+
+    .showpopup2 {
+        width: 80%;
+        margin-left: -264px;
+    }
+
+        .showpopup2 .for_sigle_row_form {
+            margin-left: 20px;
+        }
+}
+
+@media screen and (max-width:480px) {
+    .dashboard-boxes {
+        width: 42%;
+    }
+
+        .dashboard-boxes h3 {
+            font-size: 15px;
+        }
+
+    .grid-data-resposive {
+        width: 300px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .mailbox_text {
+        width: 81%;
+        height: 99px;
+    }
+
+    .branchbox a {
+        float: left;
+        margin-top: 10px;
+        margin-left: 188px;
+        margin-bottom: 10px;
+    }
+
+    .branchbox p {
+        font-size: 11px;
+        display: block;
+        float: none;
+    }
+
+    .logo {
+        width: 31.5%;
+    }
+
+        .logo img {
+            margin-top: 20px;
+        }
+
+    .uploadin-form {
+        margin-left: 0;
+    }
+
+    .student-photo_frame1 {
+        background: #fff;
+        height: auto;
+        border: 1px solid #ccc;
+        display: block;
+        margin: 0px 5px 10px;
+    }
+
+        .student-photo_frame1 .student-photo_frame_img {
+            margin: 5px;
+        }
+
+    .student-grid {
+        margin-top: 10px;
+    }
+
+    .student-detail {
+        float: left;
+        width: 53%;
+    }
+
+    .swet {
+        font-size: 15px;
+        color: #2D9FDD;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        float: left;
+    }
+
+    .conductedlecture234 {
+        width: 39.5%;
+        margin: 5px 0px 5px 5px;
+    }
+
+    .hyperdelete1 {
+        margin: 60px 70px 10px !important;
+    }
+
+    .showpopup2 .for_sigle_row_form label {
+        display: block;
+        text-align: left;
+    }
+
+    .showpopup2 .for_sigle_row_form .label-dis-none {
+        display: none;
+    }
+
+    .showpopup2 {
+        width: 97%;
+        margin-left: -235px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .logo {
+        width: 81%;
+        height: 44px;
+        background: #25405d;
+    }
+
+    #content_pane {
+        width: 96%;
+    }
+
+    .containerHeadline {
+        padding-left: 5px;
+    }
+
+    .grid-data-resposive {
+        width: 335px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .m-r-sm {
+        margin-right: 5px;
+    }
+
+    .m-l-sm {
+        margin-left: 5px;
+    }
+
+    .logo img {
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #head {
+        height: 45px;
+    }
+
+    .input_content {
+        max-width: 350px;
+        overflow: scroll;
+    }
+
+    .dashboard-boxes {
+        width: 88%;
+        min-height: 96px;
+        margin-bottom: 0px;
+    }
+
+    .mailbox_text {
+        width: 60%;
+        height: 99px;
+    }
+
+    .dashboard-margin {
+        float: left;
+    }
+
+    .dashboard-boxes {
+        font-size: 13px;
+    }
+
+    .branchbox {
+        padding-top: 5px;
+        position: relative;
+    }
+
+        .branchbox h5 {
+            display: none;
+        }
+
+        .branchbox cite {
+            display: none;
+        }
+
+        .branchbox input[type="image"] {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .branchbox a {
+            position: absolute;
+        }
+
+    .topnotifications {
+        display: none;
+        margin: 6px 1px 5px 10px;
+    }
+
+    .responsive-menu {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #left_pane {
+        margin-top: 15px;
+    }
+
+    .margin-last {
+        margin-right: 4px;
+    }
+
+    .for_sigle_row_form select {
+        width: 99%;
+    }
+
+    .for_sigle_row_form input[type="text"], input[type="select"], input[type="Password"] {
+        width: 95%;
+    }
+
+    .for_sigle_row_form textarea {
+        width: 95%;
+    }
+
+    .branch-div-tbl .tbl-top-heading h2 {
+        padding-left: 6px;
+    }
+
+    .upload {
+        float: right;
+        margin: 11px 6px 0px 0px;
+    }
+
+    .new-registration .for_sigle_row_form input[type="text"] {
+        width: 95%;
+    }
+
+    .new-registration .for_sigle_row_form input[type="password"] {
+        width: 95%;
+    }
+
+    .new-registration .for_sigle_row_form textarea {
+        width: 95%;
+    }
+
+    .student-photo_frame_img {
+        display: none;
+    }
+
+    .student-detail {
+        float: none;
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .hyperdelete {
+        background: #F39C12 none repeat scroll 0px 0px;
+        color: #FFF;
+        font-size: 12px;
+        padding: 5px 7px;
+        text-decoration: none;
+        float: none;
+        margin: 30px 55px 10px;
+        cursor: pointer;
+        clear: both;
+        display: block;
+        text-align: center;
+    }
+
+    .only-for-student {
+        min-width: 334px !important;
+    }
+
+    .conductedlecture234 {
+        width: 85%;
+        min-height: auto !important;
+        margin: 5px 0px 5px 5px;
+    }
+
+        .conductedlecture234 dd {
+            font-size: 15px;
+            padding: 10px 0px;
+        }
+
+    .showpopup2 {
+        width: 95%;
+        margin-left: -174px;
+    }
+
+    .ad-batch-tbl {
+        width: 330px;
+    }
+
+    .sgpt1 {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .branchbox a {
+        margin-left: 105px;
+    }
+
+    #content_pane {
+        width: 96%;
+    }
+
+    .grid-data-resposive {
+        width: 300px;
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
+    .responsive-menu {
+        margin-right: 7px;
+    }
+
+    .dashboard-boxes {
+        width: 86%;
+    }
+
+    .mailbox_text {
+        width: 71%;
+        height: auto;
+    }
+
+    .branchbox p span {
+        display: block;
+    }
+
+    .logo img {
+        width: 55%;
+    }
+
+    .margin-last {
+        margin-right: -12px;
+    }
+
+    .for_sigle_row_form select {
+        width: 98.5%;
+    }
+
+    .for_sigle_row_form input[type="text"], input[type="select"], input[type="Password"] {
+        width: 94%;
+    }
+
+    .for_sigle_row_form textarea {
+        width: 94%;
+    }
+
+    .only-for-student {
+        min-width: 265px !important;
+    }
+
+    .conductedlecture234 {
+        width: 82%;
+    }
+
+    .showpopup2 {
+        width: 95%;
+        margin-left: -154px;
+    }
+
+    .ad-batch-tbl {
+        width: 294px;
+    }
+}

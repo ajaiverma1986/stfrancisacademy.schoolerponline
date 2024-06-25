@@ -1,0 +1,970 @@
+/* CSS Document */
+
+/* for forms css */
+
+.form {
+    line-height: 26px;
+}
+
+.label, .div_form span {
+    font: normal bold 1em Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.label {
+    font: 1.1em Arial, Helvetica, sans-serif !important;
+    color: #fff !important;
+}
+
+/* css for Repeater */
+
+.format td {
+    padding: 2px;
+    text-align: left;
+}
+
+.format th img {
+    float: right !important;
+}
+
+.format th, .format th span {
+    font: bold 1em Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: left; /*background: #7f9db9;*/
+    background: #0d67b5;
+    cursor: pointer;
+    *cursor: hand;
+    /*padding-left:10px  !important; */
+}
+
+    .format th a, .format th a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.format .input_noborder input, .format .input_noborder a, .input_noborderFloat input {
+    border-width: 0px !important;
+    font-size: 1em;
+    width: auto;
+    background: transparent;
+    padding: 0px 8px !important;
+}
+
+.format .input_noborder a, .format a {
+    color: #0c3475;
+    text-decoration: underline;
+}
+
+    .format .input_noborder a:hover, .format a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+.input_noborderFloat input {
+    border-width: 0px;
+    font-size: 1em;
+    width: 80%;
+    background: transparent;
+}
+
+.format tfoot {
+    color: #630;
+    text-align: center;
+}
+
+.format .border_top td, .border_top {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #383838;
+}
+
+/* css for Table */
+
+.table_biggest, .format {
+    width: 100%;
+    clear: both;
+}
+
+.table_big, .table_mdm, .table_vsml {
+    width: 90%;
+    margin: auto;
+    clear: both;
+}
+
+.table_mdm {
+    width: 80%;
+}
+
+.table_sml_right {
+    width: 70%;
+    float: left;
+}
+
+.table_vsml {
+    width: 60%;
+    padding: 5px 0px 8px 0px;
+}
+
+/* for div based form layouts to be implemented */
+
+.div_form {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font: 1.1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+    .div_form .row, .div_form .row_auto {
+        width: 99%;
+        height: 25px;
+        margin: 2px 0px;
+        clear: both;
+    }
+
+    .div_form .row_auto {
+        height: auto !important;
+    }
+
+    /* div based form - left column */
+
+    .div_form .row .left9 {
+        width: 8%;
+    }
+
+    .div_form .row .left12 {
+        width: 11%;
+    }
+
+    .div_form .row .left13, .div_form .row_auto .left13 {
+        width: 12%;
+    }
+
+    .div_form .row .left14 {
+        width: 13%;
+    }
+
+    .div_form .row .left17 {
+        width: 16%;
+    }
+
+    .div_form .row .left20, .div_form .row_auto .left20 {
+        width: 19%;
+    }
+
+    .div_form .row .left30 {
+        width: 29%;
+    }
+
+    .div_form .row .left40 {
+        width: 39%;
+    }
+
+    .div_form .row .left50 {
+        width: 49%;
+    }
+
+    .div_form .row .left68 {
+        width: 68%;
+    }
+
+    .div_form .row .left9, .div_form .row .left12, .div_form .row .left13, .div_form .row_auto .left13, .div_form .row .left14, .div_form .row .left17, .div_form .row .left20, .div_form .row_auto .left20, .div_form .row .left30, .left50, .div_form .row_auto .left30, .div_form .row .left68 {
+        height: 19px;
+        float: left;
+        text-align: left;
+        padding: 3px 0% 0px 1%;
+    }
+
+        .div_form .row .left13 span, .div_form .row .left14 span {
+            font: normal normal 1em Arial, Helvetica, sans-serif;
+            color: #000;
+            text-decoration: none;
+        }
+
+    .div_form .span2 {
+        font: normal normal 1em Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: #900 !important;
+        padding-right: 12px;
+    }
+
+.redcolor {
+    text-decoration: none;
+    font-weight: bold;
+    color: #900 !important;
+}
+/* auto */
+.div_form .row_auto .left30 {
+    height: auto !important;
+    width: 29%;
+}
+
+.div_form .row_auto .left13, .div_form .row_auto .left20 {
+    height: auto !important;
+}
+
+/* div based form - right column */
+
+.div_form .row .right9 {
+    width: 8%;
+}
+
+.div_form .row .right24 {
+    width: 23%;
+}
+
+.div_form .row .right13, .div_form .row_auto .right13 {
+    width: 12%;
+}
+
+.div_form .row .right16, .div_form .row_auto .right16 {
+    width: 15%;
+}
+
+.div_form .row .right18, .div_form .row_auto .right18 {
+    width: 18%;
+}
+
+.div_form .row .right20, .div_form .row_auto .right20 {
+    width: 19%;
+}
+
+.div_form .row .right25 {
+    width: 24%;
+}
+
+.div_form .row .right30, .div_form .row_auto .right30 {
+    width: 29%;
+}
+
+.div_form .row .right52 {
+    width: 51.1%;
+}
+
+.div_form .row .right35, .div_form .row_auto .right35 {
+    width: 34%;
+}
+
+.div_form .row .right37, .div_form .row_auto .right37 {
+    width: 36%;
+}
+
+.div_form .row .right54 {
+    width: 54%;
+}
+
+.div_form .row .right70, .div_form .row_auto .right70 {
+    width: 69%;
+}
+
+.div_form .row .right9, .div_form .row .right13, .div_form .row .right16, .div_form .row .right20, .div_form .row_auto .right20, .div_form .row .right25, .div_form .row .right30, .div_form .row_auto .right30, .div_form .row .right35, .div_form .row_auto .right35, .div_form .row_auto .right37, .div_form .row .right52, .div_form .row .right54, .div_form .row .right37, .div_form .row .right70, .div_form .row_auto .right70, .div_form .row .right18, .div_form .row .right24, div_form .row.right50 {
+    height: 22px;
+    float: left;
+    text-align: left;
+}
+/* auto */
+.div_form .row_auto .right50 {
+    width: 49.5%;
+    float: left;
+    text-align: center;
+}
+
+.div_form .row_auto .right70, .div_form .row_auto .right16, .div_form .row_auto .right18, .div_form .row_auto .right20, .div_form .row_auto .right37, .div_form .row_auto .right30, .div_form .row_auto .right20, .div_form .row_auto .right35, div_form .row_auto .right50 {
+    height: auto !important;
+}
+
+/* div based form - button row */
+
+.div_form .row_button {
+    height: auto;
+    width: auto;
+    overflow: auto;
+    float: none;
+    margin: 4px 0px;
+    clear: both;
+    text-align: right;
+}
+
+    .div_form .row_button .button {
+        width: auto;
+        height: auto;
+        float: right;
+        padding: 1px 10px;
+        color: #900;
+    }
+
+        .div_form .row_button .button div {
+            width: auto;
+            height: auto;
+            float: left;
+        }
+
+        .div_form .row_button .button input {
+            width: auto;
+            height: auto;
+            margin: 0px 0px 0px 5px;
+        }
+
+    .div_form .row_button .alert {
+        width: auto;
+        height: auto;
+        color: #600;
+        padding-top: 4px;
+        float: right;
+    }
+
+/* for input css in percentage */
+
+.input_sml, .input_sml2, .input_mdm, .input_mdm2, .input_mdm3, .input_biggest, .input_big, .input_big2, .input_big3, .input_small_red {
+    font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+.input_sml {
+    width: 30%;
+}
+
+.input_sml2 {
+    width: 20%;
+}
+
+.input_mdm {
+    width: 60%;
+}
+
+.input_mdm2 {
+    width: 50%;
+}
+
+.input_mdm3 {
+    width: 40%;
+}
+
+.input_biggest {
+    width: 100%;
+}
+
+.input_big {
+    width: 90%;
+}
+
+.input_big2 {
+    width: 80%;
+}
+
+.input_big3 {
+    width: 70%;
+}
+
+/* for select css in percentage */
+
+.select_sml, .select_mdm, .select_mdm2, .select_big, .select_big2, .select_big3 {
+    font-weight: normal;
+    font: 1em Verdana, Arial, Helvetica, sans-serif;
+    padding: 1px 0px;
+}
+
+.select_sml {
+    width: 32%;
+}
+
+.select_mdm {
+    width: 62%;
+}
+
+.select_mdm2 {
+    width: 42%;
+}
+
+.select_multiple {
+    width: 250px;
+    height: 100px;
+}
+
+.select_big {
+    width: 92%;
+    margin-bottom: 0px;
+}
+
+.select_big2 {
+    width: 82%;
+}
+
+.select_big3 {
+    width: 72%;
+}
+
+.tpad {
+    padding-top: 4px;
+}
+
+.tpad2 {
+    padding-top: 3px;
+}
+
+.marginl_10 {
+    margin-left: 10px;
+}
+
+/* for repeater footer */
+.foot {
+    background: #67ADFC;
+    border-bottom: solid 2px #126788;
+}
+
+    .foot, .foot a {
+        color: #333333;
+    }
+
+        .foot a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .foot table {
+            width: 100%;
+        }
+
+            .foot table .GoToLabel {
+                width: auto;
+                float: left;
+                padding-top: 4px;
+            }
+
+.PagerOtherPageCells img {
+    width: auto;
+    float: left;
+    padding-top: 2px;
+}
+
+.foot_rep {
+    /*background:#d5dfe8;*/
+    background: #0d67b5;
+    border-bottom: solid 2px #9e7b16;
+    height: 24px;
+}
+
+    .foot_rep, .foot_rep a {
+        /*color:#600;*/
+        color: #fff;
+    }
+
+        .foot_rep a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+/* for feet(footer) */
+
+.feet {
+    width: auto;
+    float: right;
+    color: #fff;
+    font-size: 10px; /* background: #7f9db9;*/
+    background: #ac8b32;
+    border-bottom: dotted 1px #9e7b16;
+}
+
+    .feet a {
+        color: #000;
+    }
+
+        .feet a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+    .feet div div {
+        float: right;
+        padding: 4px 0px 0px 0px;
+        margin-left: 20px;
+    }
+
+        .feet div div span {
+            margin-right: 5px;
+        }
+/* for heading */
+
+.heading, .heading_nopad {
+    background: url(../images/heading.gif) no-repeat left;
+    height: 14px;
+    width: auto;
+    margin: 4px 0px 4px 0px;
+    padding: 2px 0px 2px 6px;
+    font-size: 1.1em;
+    color: #330;
+}
+
+.heading_nopad {
+    margin: 0px !important;
+}
+
+/* only for payment Institute page */
+
+.div_form .row_pay {
+    width: 100%;
+    height: 30px;
+    margin: 2px 0px;
+    clear: both;
+    color: #600;
+    font-size: 0.9em;
+}
+
+    .div_form .row_pay div {
+        width: 49.9%;
+    }
+
+/* Extra */
+.input_small_red {
+    color: #930;
+    width: 76px;
+    margin-right: 46px;
+    padding-top: 2px;
+    border: 0px;
+    background: transparent;
+}
+
+#div_goto select {
+    width: 50px;
+}
+
+.u {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.marTop2 {
+    margin-top: 1px;
+    position: absolute;
+}
+
+/* Corner */
+
+.half_l {
+    width: 45%;
+    height: 100px;
+    float: left;
+}
+
+.half_l_t {
+    width: auto;
+    clear: both;
+    height: 8px;
+    padding-right: 8px;
+    background: url(../images/cor.gif) no-repeat right 0px;
+    font-size: 0px;
+}
+
+.half_l_t_l {
+    width: auto;
+    height: 7px;
+    border-top: solid 1px #d6d6d6;
+    background: #f3f2e7;
+}
+
+.half_cont {
+    width: auto;
+    clear: both;
+    border-right: solid 1px #d6d6d6;
+    padding-left: 7px;
+    background: #f3f2e7;
+}
+
+.half_l_b {
+    width: auto;
+    height: 8px;
+    padding-right: 8px;
+    background: url(../images/cor.gif) no-repeat right 100%;
+    font-size: 0px;
+}
+
+.half_l_b_l {
+    width: auto;
+    height: 7px;
+    border-bottom: solid 1px #d6d6d6;
+    background: #f3f2e7;
+}
+
+.half_r {
+    width: 45%;
+    height: 100px;
+    float: right;
+}
+
+.half_r_t {
+    width: auto;
+    clear: both;
+    height: 8px;
+    padding-left: 8px;
+    background: url(../images/cor.gif) no-repeat left 0px;
+    font-size: 0px;
+}
+
+.half_r_t_l {
+    width: auto;
+    height: 7px;
+    border-top: solid 1px #d6d6d6;
+    background: #f3f2e7;
+}
+
+.half_r_cont {
+    width: 100%;
+    border-left: solid 1px #d6d6d6;
+    padding-left: 7px;
+    background: #f3f2e7;
+}
+
+.half_r_b {
+    width: auto;
+    height: 8px;
+    clear: both;
+    padding-left: 8px;
+    background: url(../images/cor.gif) no-repeat left 100%;
+    font-size: 0px;
+}
+
+.half_r_b_l {
+    width: auto;
+    height: 7px;
+    border-bottom: solid 1px #d6d6d6;
+    background: #f3f2e7;
+}
+
+/* for content heading & bottom part */
+
+.box_top, .box_bot {
+    height: 17px;
+    width: 100%; /*border-top: dotted 1px #7f9db9;*/
+    border-top: dotted 1px #67adfc;
+    font: normal bold 10px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    clear: both;
+}
+
+.box_l, .box_r {
+    height: 14px;
+    width: auto;
+    float: left; /*background:#7f9db9;*/
+    background: #67ADFC;
+    padding: 3px 3px 0px 0px;
+    color: #fff;
+}
+
+.box_sep1, .box_sep2, .box_sep4, .box_sep3 {
+    height: 17px;
+    background: #9e7b16 url(../images/text_head.png) no-repeat 0px 0px;
+    float: left;
+}
+
+.box_septrnsprt {
+    height: 17px;
+    width: 15px;
+    background: url(../images/text_head1.png) no-repeat 0px 0px;
+    float: left;
+}
+
+.box_msgr, .box_msgl {
+    width: auto;
+    text-align: right;
+    padding: 0px 3px;
+    color: #600;
+}
+
+    .box_msgr img {
+        padding-top: 2px;
+        float: right;
+    }
+
+    .box_msgr .span {
+        float: right;
+        padding-top: 2px;
+        padding-right: 5px;
+    }
+
+.box_r {
+    float: right;
+}
+
+.box_sep2 {
+    background-position: -18px 0px;
+    float: right;
+}
+
+.box_msgl {
+    text-align: left;
+}
+
+.box_bot {
+    border-bottom: dotted 1px #67ADFC;
+    border-top: none;
+}
+
+.box_sep4 {
+    background-position: 0px -17px;
+}
+
+.box_sep3 {
+    background-position: -17px -17px;
+    float: right;
+}
+
+.box_r input {
+    height: 14px;
+    widows: 67px;
+}
+
+    .box_r input :hover {
+        height: 14px;
+        widows: 67px;
+        background: url(../images/enter.gif) no-repeat;
+    }
+
+.box_r a {
+    color: #333;
+    font: normal 0.9em Arial, Helvetica, sans-serif;
+}
+
+.box_r a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* for grid */
+
+.grid {
+    font-size: 1em;
+}
+
+    .grid td {
+        padding: 2px;
+    }
+
+    .grid th {
+        font: bold 0.9em Verdana, Arial, Helvetica, sans-serif;
+        color: #333;
+        background: #b0c4de;
+    }
+
+/* for seperate blocks */
+
+.block {
+    height: 300px;
+}
+
+/* for hidding messages */
+.hide {
+    display: none;
+}
+/* for hidding messages */
+.left12 {
+    width: 12%;
+}
+
+.right24 {
+    width: 24%;
+}
+
+span.nobold {
+    font-weight: normal;
+    color: Black;
+}
+/* Extra */
+input.whitebg {
+    border: 0px;
+    font-size: 1em;
+    width: auto;
+    background: transparent;
+}
+
+.stuPhoto {
+    width: 103px;
+    height: 128px;
+    border: solid 2px #999;
+    margin: auto;
+    text-align: center;
+}
+
+.stuSig {
+    width: 134px;
+    height: 39px;
+    border: solid 2px #999;
+    margin: auto;
+    text-align: center;
+}
+
+.spaces {
+    margin-bottom: 100px;
+    width: 250px;
+}
+
+.normalHeading {
+    width: auto;
+    float: left;
+    color: #FF0004;
+    font-size: 12px; /* background: #7f9db9;*/
+    font-weight: 300;
+    padding: 2px 5px 2px 5px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.divBorder {
+    border: solid 2px #999;
+}
+
+.rederrorHighlight {
+    border: 1px solid #FF0004;
+    background: #F0D8D9;
+    color: #022e41;
+}
+
+#Layer1 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    z-index: 1;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    top: 150px;
+    visibility: hidden;
+    right: 150px;
+}
+
+input.input_bg_none {
+    background: none;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+}
+/* Added By Deepak*/
+.paper {
+    width: 350px;
+    height: 150px;
+    margin: 2px 0px;
+    clear: both;
+    overflow: auto;
+}
+
+.fullpaper {
+    width: 96%;
+    height: 150px;
+    margin: 2px 0px 0px 10px;
+    clear: both;
+    overflow: auto;
+}
+
+.errorMessageBox {
+    padding-top: 5px;
+    border: dotted 1px #9e7b16;
+    width: 70%;
+    height: 20px;
+    margin: 10px 10px 10px 50px;
+    background: #D3E3ED;
+    font: bold 12px verdana;
+    color: #F59393;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* css3 border radius */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.select_College {
+    width: 493px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font: 1em Verdana, Arial, Helvetica, sans-serif;
+    padding: 1px 0px;
+}
+
+    .select_College option {
+        width: 493px;
+    }
+
+.instructions {
+    border: dotted 1px #67adfc;
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    background: #E4F1F5;
+    font: normal 11px verdana;
+    padding: 8px !important;
+    color: #702B34;
+}
+
+.instructionslabel {
+    font: bold 11px verdana;
+    color: #D45759;
+}
+
+.instHeading {
+    font: normal 11px verdana !important;
+    color: #D45759;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    display: block;
+    padding: 3px;
+    font: 10px verdana !important;
+    color: #D45759;
+}
+
+.font10 {
+    font-size: 10px !important;
+}
+
+.div_98width {
+    width: 98% !important;
+}
+/***********End Block*************/
+
+.dateTime {
+    font: normal bold 11px Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.tooltip {
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    width: 200px;
+    display: none;
+    color: #CC1620;
+    text-align: left;
+    font-size: 12px;
+    color: gray; /* outline radius for mozilla/firefox only */
+    -moz-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px #000;
+}
+
+#DHTMLgoodies_formTooltipDiv {
+    color: #CC1620;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.DHTMLgoodies_formTooltip_closeMessage {
+    color: #CC1620;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.mobileleft {
+    border-left: none;
+}
+
+.mobileright {
+    border-right: none;
+}
+
+.textarea {
+    width: 590px;
+    height: 40px;
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRODUCTS>
+  <PRODUCT>
+    <id value="2">
+    </id>
+    <name value="Admin">
+    </name>
+    <amount value="100">
+    </amount>
+  </PRODUCT>
+  <PRODUCT>
+    <id value="1">
+    </id>
+    <name value="raju">
+    </name>
+    <amount value="100">
+    </amount>
+  </PRODUCT>
+</PRODUCTS>

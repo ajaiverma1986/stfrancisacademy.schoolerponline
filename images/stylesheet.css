@@ -1,0 +1,535 @@
+﻿/*Green #73AE38
+Orange #FE6921
+*/
+
+body
+{
+margin:0;
+	color:#232323;
+
+	padding-top:0px;
+	padding-bottom:5px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.logoBG
+{
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:White;
+    }
+
+.TableBody
+{
+/*  background-color:#BDDBA5;*/
+ /*background:url(index_bkgrnd.png);*/
+}
+.table
+{
+	border-right: red 1px solid;
+	border-top: red 1px solid;
+	border-left: red 1px solid;
+	border-bottom: red 1px solid;
+}
+
+.Footer
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: White;
+	font-family: Verdana;
+	 text-transform: capitalize;
+	text-align:left;
+	background-color: #96C56F;
+}
+
+.TableRow
+	{
+	font-family: Verdana;
+	font-size:12px;
+	font-weight:bold;
+	text-align:Center;
+	color:white;
+	height:18px;
+	/*background-image:url(mbg.gif);*/
+	background-color:#557FB9;
+	background-repeat:repeat-x;
+	/*background-repeat: repeat-x;*/
+/*	word-spacing: 2px;
+//	line-height:12px;*/
+}
+
+.table
+{
+	border-right: #96C56F 1px solid;
+	border-top: #96C56F 1px solid;
+	border-left: #96C56F 1px solid;
+	border-bottom: #96C56F 1px solid;
+}
+.tablecell
+{
+    border-right: #96C56F 1px solid;
+	border-top: #96C56F 1px solid;
+	border-left: #96C56F 1px solid;
+	border-bottom: #96C56F 1px solid;
+	border-color : #96C56F;
+}
+.button
+{
+	background-repeat:repeat-x;
+
+	background-color:#E58D4D;
+	font-weight: bold;
+	font-size:10pt;
+    text-transform:capitalize;
+   /* color:#ffffff; */
+    font-family: Verdana;
+}
+.Formhead
+{
+	background:url(mbg.gif);
+    padding-left: 5px;
+    font-weight: bold;
+    color:Purple;
+	text-align: left;
+	font-family: Verdana;
+	font-size: medium;
+	height:12px;
+}
+.underMunu
+{
+	/*background:url(mbg.gif);*/
+	/*background-color:#557FB9;*/
+    padding-left: 5px;
+    color:#000000;
+	text-align: left;
+	font-family: Verdana;
+	font-size:small;
+	height:15px;
+}
+.MainTable
+{
+  	 background-color:#EEEEEE;
+  	 width:100%;
+	 border-right: #BC6B6C 1px solid;
+	 border-top: #BC6B6C 1px solid;
+	 border-left: #BC6B6C 1px solid;
+	 border-bottom: #BC6B6C 1px solid;
+	 font-size: 8pt;
+	text-transform: capitalize;
+	 color:Black;
+	 font-family: Verdana;
+	 text-align:center;
+}
+
+.MainTablewel
+{
+	 background-color:#EEEEEE;
+  	 width:100%;
+	 border-right: #BC6B6C 1px solid;
+	 border-top: #BC6B6C 1px solid;
+	 border-left: #BC6B6C 1px solid;
+	 border-bottom: #BC6B6C 1px solid;
+	 font-size: 8pt;
+	 color:Black;
+	 font-family: Verdana;
+	 text-align:center;
+}
+
+.infoTable
+{
+    background-color:#ffffff;
+	font-size: 8pt;
+	text-transform: capitalize;
+	color:#000000;
+	font-family: Verdana;
+	border-right: #BC6B6C 1px solid;
+	 border-top: #BC6B6C 1px solid;
+	 border-left: #BC6B6C 1px solid;
+	 border-bottom: #BC6B6C 1px solid;
+}
+
+.MainTablewel
+{
+	background-color:#ffffff;
+	font-size: 8pt;
+	color:#000000;
+	font-family: Verdana;
+	border-right: #BC6B6C 1px solid;
+	 border-top: #BC6B6C 1px solid;
+	 border-left: #BC6B6C 1px solid;
+	 border-bottom: #BC6B6C 1px solid;
+}
+
+.footerLink
+{
+	 color:#000000;
+}
+
+.footerLink a:visited
+{
+	 color:#0E0E0E;
+	}
+
+.footerLink a:hover
+{
+	 color:#734602;
+}
+
+.fieldSett
+{
+    font-family:Verdana;
+    font-size:small;
+    width:500px;
+}
+
+.normalRow
+{
+background-color:#F9AF6D;/* You can update the background Color to normal Gridview Back Color */
+cursor:pointer;/* You can change cursor pointer to default, Pointer etc */
+}
+
+.highlightRow
+{
+background-color: white;/* You can change the background Color of the row to whatever color you want. You can also give Hexadecimal color code also */
+cursor:pointer;/* You can change cursor pointer to default, Pointer etc */
+}
+
+/*.rightMain
+{
+	background-image: url(images/butt_bg.gif);
+}
+
+.rightMainH
+{
+	background-image: url(images/butt_bg1.gif);
+}*/
+
+.menuText
+	{
+	background-color: #ADD8E6;
+	color:white ;
+	text-align: center;
+	font-family: Verdana;
+	font-size: x-small;
+	font-weight:bold;
+	}
+
+	.subMenu
+	{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color:  #FFFFFF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	background-color: #47A438;
+	text-align: left;
+	font-size: small;
+	font-family: Verdana;
+	color: #074771;
+	height: 25px;
+	}
+
+.menuHover
+{
+	background-color:#F0F8FF;
+	font-family: Verdana;
+	font-size: x-small;
+	color: Blue;
+}
+
+.subMenuHover
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	/*background-image: url(images/butt_bg.gif);*/
+	background-color:Red;
+	background-repeat: repeat-x;
+	font-family: Verdana;
+	font-size: small;
+	color: Red;
+}
+	.right
+{
+   	/*background-image:url(mbg.gif);*/
+   	background-color :#8C8C8C;
+	background-repeat:repeat-x;
+	color:#ffffff;
+	text-align:center;
+	/*font-weight:bold; */
+	width: 100%;
+	height:41px;
+	font-family:Verdana ;
+	font-size:12px;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+ text-decoration:none;
+}
+
+ .rightH
+{
+	/*background-image:url(mbg.gif);*/
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	color:#000000;
+	text-align:center;
+	/*font-weight:bolder; */
+	width: 100%;
+	height:41px;
+	font-family:Verdana ;
+	font-size:12px;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+.rightMain
+{
+	border-right: black 2px solid; /* border-top: #C33129 1px solid;*/
+	border-left: black 2px solid;
+	border-bottom: black 2px solid;
+	text-align: center;
+	color:White;
+	font-weight:bolder;
+	height: 25px;
+	border-top: black 1px solid;
+	border-left: black 2px solid;
+}
+.rightMain
+{  /*background-image  :url(mbg.gif);*/
+    background-color:#777FA3 ;
+	background-repeat:repeat-x;
+	text-align:left;
+	color:White;
+	height: 41px;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+    }
+.rightMainH
+{
+	/*background-image:url(mbg.gif);*/
+	background-color:#525978;
+	background-repeat:repeat-x;
+	text-align:left;
+	color:White;
+	height: 41px;
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+.grdHeader
+	{
+	font-family: Verdana;
+	font-size:x-small;
+	font-weight:bold;
+	text-align: Center;
+	color:White;
+	height:30px;
+	/*background-image:url(mbg.gif);*/
+	background-color:#E58D4D;
+	background-repeat: repeat-x;
+	word-spacing:2px;
+	}
+.grdHeader a
+	{
+	color:White;
+	text-align: Center;
+	text-decoration: none;
+	}
+.grdFooter
+	{
+	font-family: Verdana;
+	font-size: x-small;
+	color:#6C609E;
+	background-image:url(but_bar.gif);
+	background-repeat: repeat-x;
+	}
+.grdPaging
+	{
+	font-family: Verdana;
+	font-size: x-small;
+	color:Red;
+	height: 15px;
+	vertical-align: middle;
+	background-image:url(but_bar.gif);
+	background-repeat: repeat-x;
+	}
+.grdOdd
+	{
+	font-family: Verdana;
+	color:Maroon;
+	font-size:12px;
+	/*background-color:#BCDFF6;*/
+	background-color:#A3D0FF;
+	height:30px;
+    /*background-image:url(grdHeaderNew.gif);
+    background-repeat: repeat-x;*/
+	}
+
+.grdEven
+	{
+	font-family: Verdana;
+	color:White;
+	font-size:12px;
+	/*background-image:url(SubgrdHeaderNew.gif);
+	background-repeat: repeat-x;*/
+	background-color:white;
+	height:30px;
+	}
+	.grdheader1
+	{
+	font-family: Verdana;
+	font-size:x-small;
+	font-weight:bold;
+	text-align: Center;
+	color:#C5013A;
+	height:30px;
+	word-spacing:2px;
+	}
+
+	.grdBody
+	{
+	     width: 1010px;
+         height: 400px;
+	}
+
+	.grdfooter1
+	{
+	    height:30px;
+	    font-family:Verdana;
+	    font-size:10px;
+	    color:#273E7A;
+	    text-decoration:Bold;
+	}
+
+	.grdfooter2
+	{
+	    height:30px;
+	    color:#104E8B;
+	    text-transform:uppercase;
+	    font-weight:bold;
+	    background-color:#2f2f2f;
+	}
+
+	.grdPanel
+
+	{
+		/*background:url(mbg.gif)top left repeat-x; */
+		background-color:#990033;
+	    /*#4174BC*/
+	}
+
+	.lblClass
+	{
+	    font-family:Verdana;
+	    font-size:10px;
+	    font-weight:bold ;
+	    text-align:center ;
+	    padding-left:5px;
+	    color:#CA4D12;
+	}
+
+	.lblClass1
+	{
+	    font-family:Verdana;
+	    font-size:12px;
+	    font-weight:bold ;
+	    text-align:right;
+	    color:#5B5252;
+	}
+
+	.colon
+	{
+	    color:#9F0808;
+	}
+
+	.txtHeader
+	{
+	color:Maroon;
+	font-size:25px;
+	text-align:left;
+	}
+
+	.tdHeader
+	{
+	    width:30%;
+	    color:#9F0808;
+	    font-size:15px;
+	    background-repeat: repeat-x;
+	}
+
+	.tdHeader70
+	{
+		background:url(index_bkgrnd.png);
+	    width:30%;
+	   /* color:#9F0808;*/
+	    font-size:15px;
+	}
+	.clsLegend
+	{
+	 color:#5B5252;
+	 font-size:10px;
+	 font-weight:bold;
+	}
+
+	.fldSet
+	{
+	    color:Green;
+	    font-size:15px;
+	    font-weight:bold;
+	}
+
+	.IfOnmouseOver
+	{
+	        height:30px;
+			background-image:url(but_bar.gif);
+			background-repeat: repeat-x;
+	       color:Green;
+	       font-size:12px;
+	}
+
+	.Ifonmouseout
+	{
+	    height:30px;
+	    /*background-image:url(grdHeaderNew.gif);
+		background-repeat: repeat-x;*/
+	   background-color:#BCDFF6;
+		color:Maroon;
+		font-size:12px;
+	}
+
+	.elseIfOnMouseOver
+	{
+	   height:30px;
+	   background-image:url(but_bar.gif);
+	   background-repeat: repeat-x;
+	    color:White;
+	    font-size:12px;
+	}
+
+	.elseIfOnMouseOut
+	{
+	    height:30px;
+	    color:White;
+		font-size:12px;
+	 /*   background-image:url(SubgrdHeaderNew.gif);
+		background-repeat: repeat-x;*/
+	    background-color:#86938C;
+	}
+	.wizTable
+	{
+	    border:solid 1px red;
+	    }

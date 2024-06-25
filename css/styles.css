@@ -1,0 +1,204 @@
+﻿body {
+}
+
+.spill {
+    height: auto;
+    width: 300px;
+    border: #dddddd 1px solid;
+    float: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    background: #FFF;
+    box-shadow: 0 0 10px #CCC;
+    padding: 10px 8px;
+}
+
+.diamond {
+    background-image: url(../images/parent.ico);
+    background-size: 80px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    color: White;
+}
+
+.border1 {
+    background-image: url(../images/mim.ico);
+    background-size: 80px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #48433D;
+    border-right-color: #48433D;
+    border-bottom-color: #48433D;
+    border-left-color: #48433D;
+    font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+    color: #48433D;
+}
+
+.login-popup {
+    display: none;
+    background: url('../images/back1.jpg');
+    border: blue 2px solid;
+    background: white;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#mask {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: 999;
+}
+
+img.btn_close {
+    float: right;
+    margin: 0px -27px 0 0;
+    height: 25px;
+}
+
+.txt:hover {
+    background-color: #D2D0F8;
+    color: Blue;
+    border: green 1px solid;
+}
+
+.tbl {
+    background-color: #D4BFF1;
+    color: red;
+}
+
+    .tbl:hover {
+        background-color: Orange;
+        font-style: italic;
+        color: blue;
+    }
+
+.grdrowstyle {
+    background-color: #DDD9C3;
+    height: 30px;
+    color: #7D312C;
+    text-align: center;
+}
+
+.grdheader {
+    background-color: #FF0000;
+    color: white;
+    font-size: 13pt;
+    height: 30px;
+    text-align: center;
+}
+
+.grdalterrow {
+    background-color: Gray;
+    color: Yellow;
+    text-align: center;
+}
+
+.grdfooter {
+    background-color: transparent;
+}
+
+.IfOnmouseOver {
+    height: 30px;
+    text-align: center;
+    background-image: url(but_bar.gif);
+    background-repeat: repeat-x;
+    color: Green;
+    font-size: 12px;
+}
+
+.Ifonmouseout {
+    height: 30px;
+    text-align: center;
+    /*background-image:url(grdHeaderNew.gif);
+		background-repeat: repeat-x;*/
+    background-color: #A3D8F9;
+    color: Maroon;
+    font-size: 12px;
+}
+
+.elseIfOnMouseOver {
+    height: 30px;
+    text-align: center;
+    background-image: url(but_bar.gif);
+    background-repeat: repeat-x;
+    /* color:White;*/
+    font-size: 12px;
+    color: Black;
+}
+
+.elseIfOnMouseOut {
+    height: 30px;
+    text-align: center;
+    color: White;
+    font-size: 12px;
+    /*   background-image:url(SubgrdHeaderNew.gif);
+		background-repeat: repeat-x;*/
+    background-color: #86938C;
+}
+
+.maintable {
+    font-size: 12pt;
+    width: 100%;
+}
+
+.formtitle {
+    border-radius: 25px;
+    text-align: left;
+    background-color: #FEE0A2;
+    font-size: 15pt;
+    color: red;
+    padding-left: 15px;
+}
+
+.button {
+    background-color: Orange;
+    border-radius: 20px;
+    color: Blue;
+    width: 100px;
+    height: 30px;
+}
+
+    .button:hover {
+        background-color: Red;
+        color: Yellow;
+    }
+
+.infoTable {
+    border: blue 1px solid;
+    border-radius: 25px;
+}

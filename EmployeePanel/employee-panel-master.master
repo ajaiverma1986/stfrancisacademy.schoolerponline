@@ -1,0 +1,237 @@
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeFile="employee-panel-master.master.cs" Inherits="EmployeePanel_employee_panel_master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Student Information</title>  
+
+    <%-- css Link--%>
+     <link id="favicon" rel="shortcut icon" type="image/ico" runat="server" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <%--<link href="../css/softwares_style.css" rel="stylesheet" type="text/css" />--%>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' />    
+    <link href="../css/responsive.css" rel="stylesheet" />
+
+    <link href="css/fullcalendar.css" rel="stylesheet" />
+    <link href="css/datatables.css" rel="stylesheet" />
+    <link href="css/bootstrap.datatables.css" rel="stylesheet" />
+    <link href="css/chosen.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <%--<link type="text/css" rel="stylesheet" href="assets/css/font.css" />--%>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link href="../css/alertify.core.css" type="text/css" media="all" rel="stylesheet" />
+    <link href="../css/alertify.default.css" type="text/css" media="all" rel="stylesheet" />
+    <%-- J Query Link--%>
+
+   <script src="../js/alertify.js" type="text/javascript"></script>
+    <script src="../js/jquery-1.8.2.js" type="text/javascript"></script>
+<%--    <script src="../js/jquery-1.8.2.min.js" type="text/javascript"></script>--%>
+    <script type="text/javascript" src="../js/app.v1.js"></script>
+    <%--Old Script Start Here--%>
+    <link href="~/js/1.8-themes-base-jquery-ui.css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery.com-ui-1.10.0-jquery-ui.js"></script>
+
+ 
+    <script src="js/jquery-ui.min.js" type="text/javascript"> </script>
+    <script src="js/jquery.sparkline.min.js" type="text/javascript"> </script>
+    <script src="js/tab.js" type="text/javascript"> </script>
+    <script src="js/dropdown.js" type="text/javascript"> </script>
+    <script src="js/collapse.js" type="text/javascript"> </script>
+    <script src="js/transition.js" type="text/javascript"> </script>
+    <script src="js/tooltip.js" type="text/javascript"> </script>
+    <script src="js/jquery.knob.js" type="text/javascript"> </script>
+    <script src="js/fullcalendar.min.js" type="text/javascript"> </script>
+    <script src="js/datatables/datatables.min.js" type="text/javascript"> </script>
+    <script src="js/chosen.jquery.min.js" type="text/javascript"> </script>
+    <script src="js/bootstrap.datatables.js" type="text/javascript"> </script>
+    <script src="js/color_settings.js" type="text/javascript"> </script>
+    <script src="js/application.js" type="text/javascript"> </script>
+    <script src="../js/alertify.js" type="text/javascript"></script>
+
+    <style>
+        #loader {
+            position: relative;
+            top: 10%;
+        }
+
+        .progress {
+            display: none;
+        }
+
+        .progressAdd {
+            display: block;
+            position: fixed;
+            background: -moz-linear-gradient(center top, #fff, #fff) repeat scroll 0 0 rgba(0, 0, 0, 0);
+            z-index: 2147483647 !important;
+            opacity: 0.8;
+            overflow: hidden;
+            text-align: center;
+            top: 0;
+            left: 0;
+            height: 100%;
+            vertical-align: middle;
+            width: 100%;
+            padding-top: 20%;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112013300-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112013300-1');
+</script>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="aspNetHidden">
+        </div>
+        <div class="aspNetHidden">
+        </div>
+        <div class="all-wrapper">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="side-bar-wrapper collapse navbar-collapse navbar-ex1-collapse">
+                        <a class="logo hidden-sm hidden-xs" href="employee-panel-home-page.aspx">
+                            <asp:Image id="imgPP" Width="100%" ImageUrl="../images/logo.png" runat="server" />
+                        </a>
+                        <div class="relative-w">
+                            <ul class="side-menu">
+                                <li class="dashboardactive">
+                                    <a href="employee-panel-home-page.aspx">
+                                        <i class="icon-dashboard"></i>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                 <li class="downloadactive">
+                                    <a href="download.aspx">
+                                        <i class="icon-user"></i>
+                                        Download Result
+                                    </a>
+                                </li>
+                                <li class="profileactive">
+                                    <a href="student-view-profile.aspx">
+                                        <i class="icon-user"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="attendanceactive">
+                                    <a href="Student-attandance-report.aspx">
+                                        <i class="icon-group"></i>
+                                        Attendance
+                                    </a>
+                                </li>
+                                <%--<li class="salaryactive">
+                                    <a href="emp-salary-report.aspx">
+                                        <i class="icon-hand-up"></i>
+                                        Salary
+                                    </a>
+                                </li>--%>
+                                <li class="timetableactive">
+                                    <a href="time-table-report.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Time Table
+                                    </a>
+                                </li>
+                                <li class="calenderactive">
+                                    <a href="school-calender.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Calender
+                                    </a>
+                                </li>
+                                
+                                 <li class="workreportactive">
+                                    <a href="downloadassignment.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Assignment
+                                    </a>
+                                </li>
+                              <%-- <li class="workreportactive">
+                                    <a href="PayTransportFee.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Transport Fee Deposit
+                                    </a>
+                                </li>
+                                <li class="workreportactive">
+                                    <a href="OnlineFeeCollection.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Trans Fee Collection
+                                    </a>
+                                </li>--%>
+                                 <li class="workreportactive">
+                                    <a href="feeDefault.aspx">
+                                        <i class="icon-calendar"></i>
+                                         Fee Deposit
+                                    </a>
+                                </li>
+                                <li class="workreportactive">
+                                    <a href="StudentReview.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Review By Teacher
+                                    </a>
+                                </li>
+                                <li class="workreportactive">
+                                    <a href="ViewEvents.aspx">
+                                        <i class="icon-calendar"></i>
+                                        Events
+                                    </a>
+                                </li>
+                               <%-- <li class="mailcenteractive">
+                                    <a href="mail-or-message-center.aspx">
+                                        <i class="icon-file-text"></i>
+                                        Mail Center
+                                    </a>
+                                </li>--%>
+                                <%--<li class="leaveactive">
+                                    <a href="requestleave.aspx">
+                                        <i class="icon-bar-chart"></i>
+                                        Leave
+                                    </a>
+                                </li>--%>
+                                <%--<li class="graphactive">
+                                    <a href="#">
+                                        <i class="icon-bar-chart"></i>
+                                        Graphs
+                                    </a>
+                                </li>
+                                <li class="upload-download-active">
+                                    <a href="#">
+                                        <i class="icon-bar-chart"></i>
+                                        Upload / Download
+                                    </a>
+                                </li>
+                                <li class="examactive">
+                                    <a href="#">
+                                        <i class="icon-bar-chart"></i>
+                                        Exams
+                                    </a>
+                                </li>--%>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <asp:ContentPlaceHolder ID="head" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="panel-footer pull-right" style="margin-right: 17px !important;">
+                    <span class="foot">
+                        <a target="_blank" href="https://stfrancismotihari.com/">St. Francis Academy</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

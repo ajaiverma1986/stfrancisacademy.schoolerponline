@@ -1,0 +1,1 @@
+http://bulksms.mysmsmantra.com:8080/WebSMS/SMSAPI.jsp?username=Gift4u&password=353354417&sendername=GIFTFU&mobileno=91

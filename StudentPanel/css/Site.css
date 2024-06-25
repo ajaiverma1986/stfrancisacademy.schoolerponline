@@ -1,0 +1,804 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: Black;
+    height:100%;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+/* PRIMARY LAYOUT ELEMENTS
+----------------------------------------------------------*/
+
+.page
+{
+    width: 99.8%; /*width: 960px;*/
+    background-color: #fff;
+    margin: 0px auto 0px auto;
+    border: 1px solid #496077;
+    height:97%;
+}
+
+.header
+{
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+    height:40px;
+}
+
+.header h1
+{
+    margin: 0px;
+    padding: 0px 5px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 1.4em;
+    font-size: 1.9em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    /*margin: 12px 8px 8px 8px;*/
+    margin: 8px 2px 2px 2px;
+    min-height: 600px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+/* TAB MENU
+----------------------------------------------------------*/
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style:none;
+    margin: 0px;
+    width: auto;
+    white-space:nowrap;
+}
+
+div.menu ul li
+{
+    display:inline;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465d91;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    float:right;
+    margin-right:10px;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline
+{
+    display: inline;
+}
+
+legend
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding:3px;
+    font-size:1.3em;
+    font-weight:bold;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+/* Newly added-----------------------------------------------------------------*/
+
+div.LangaugeSelection
+{
+    float:right;
+    margin: 5px 10px 5px 10px;
+}
+
+div.InstructionHeader
+{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    margin: 15px 0px 10px 0px;
+    font-size:16px;
+}
+
+div.divInstructions
+{
+    width:100%;
+    text-align:left;
+    margin: 5px 10px 5px 0px;
+    padding:8px;
+}
+
+div.InstructionBottom
+{
+    width:100%;
+    text-align:left;
+    margin: 5px 10px 5px 0px;
+    color:Red;
+}
+
+div.DefaultButtonArea
+{
+    width:100%;
+    text-align:center;
+}
+
+.DefaultButton, a:hover.DefaultButton
+{
+    background-color: #465d91;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    margin-right:10px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.SecondaryButton, a:hover.SecondaryButton
+{
+    background-color: #99ccff;
+    border: 1px #4e667d solid;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    margin-right:10px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.SubjectButton, a:hover.SubjectButton
+{
+    background-color: #465d91;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    margin-right:8px;
+    font-weight:bold;
+    font-size:0.9em;
+    cursor: pointer;
+}
+
+.subjectHilight
+{
+    background-color: #99ccff;
+    color: #333;
+}
+
+.RightPanelButton
+{
+    background-color: #99ccff;
+    border: 1px #4e667d solid;
+    display: block;
+    line-height: 1.35em;
+    white-space: nowrap;
+    display:inline;
+    /*font-weight:bold;*/
+    cursor: pointer;
+    height:24px;
+    width:115px;
+    margin-top:6px;
+}
+
+.submitButton
+{
+    background-color: #99ccff;
+    border: 1px #4e667d solid;
+    display: block;
+    line-height: 1.35em;
+    white-space: nowrap;
+    display:inline;
+    font-weight:bold;
+    cursor: pointer;
+    height:24px;
+    width:115px;
+    margin-top:6px;
+}
+
+/* Right Panel Starts Here */
+.rightPanel
+{
+    /*width:22%;*/
+    width:270px;
+    float:right;
+    margin-left:10px;
+    min-height:100px;
+}
+
+#divTimePanel
+{
+    width:80%;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+#divQuestionFilter
+{
+    width:100%;
+    padding:5px;
+}
+
+#divQuestionPalleteTitle
+{
+    margin-top:10px;
+    background-color:#DCEAF2;
+    text-align:left;
+    padding-left:5px;
+    padding-top:5px;
+}
+
+#divQuestionPallete
+{
+    background-color:#DCEAF2;
+    min-height:322px;               /* height change here */
+    max-height:322px;               /* height change here */
+    overflow-y: scroll;
+    font-size:0.8em;
+}
+
+.divLegend
+{
+    background-color:#DCEAF2;
+    padding-left:5px;
+    text-align:left;
+}
+
+.divLegend table td
+{
+    vertical-align:middle;
+}
+
+.divLegend button
+{
+    display: block;
+    line-height: 1.35em;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    margin-left:4px;
+    margin-top:2px;
+    font-weight:bold;
+    cursor: pointer;
+    width:26px;
+    height:26px;
+    border: none;
+    background-size:28px 25px;
+    background-position:-1px 2px;
+    /*-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;*/
+}
+
+.divRightpanelBottom
+{
+    background-color:#DCEAF2;
+    padding-bottom:6px;
+}
+
+.PalleteButtons
+{
+   margin-left:11px;
+   margin-right:13px;
+   text-align:center;
+}
+
+.PalleteButtons button
+{
+    display: block;
+    line-height: 1.35em;
+    text-decoration: none;
+    white-space: nowrap;
+    display:inline;
+    margin-left:6px;
+    margin-top:8px;
+    font-weight:bold;
+    cursor: pointer;
+    width:32px;
+    height:26px;
+    float:left;
+    padding-left:4px;
+    border: none;
+    /*-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;*/
+}
+
+.ButtonAnswered
+{
+    /*background-color: Green;
+    border: 1px Green solid;*/
+    color: #dde4ec;
+    background:url(answered.png) no-repeat;
+}
+
+.ButtonNotAnswered
+{
+    /*background-color: Red;
+    border: 1px Red solid;*/
+    background:url(not_answered.png) no-repeat;
+    color: #dde4ec;
+}
+
+.ButtonNotAnsweredMarked
+{
+    /*background-color: Purple;
+    border: 1px Purple solid;*/
+    color: #dde4ec;
+    background:url(review.png) no-repeat;
+}
+
+.ButtonNotVisited
+{
+    /*background-color: Gray;
+    border: 1px Gray solid;*/
+    color: #666;
+    background:url(not_visited.png) no-repeat;
+}
+
+.ButtonAnsweredMarked
+{
+    /*background-color: Teal;
+    border: 1px Teal solid;*/
+    color: #dde4ec;
+    background:url(review_answer.png) no-repeat;
+    background-position:0px -2px;
+}
+/* Right Panel Ends Here */
+
+/*  Left panel Items Start Here */
+.leftPanel
+{
+    /*width:77%;
+    float:left;*/
+    overflow:hidden;
+    min-height:100px;
+}
+
+.Sections
+{
+    border-color:Black;
+    border-style:solid;
+    border-width:1px;
+    padding: 10px;
+    margin:0 0 5px 0;
+    display:none;
+}
+
+.ViewIn
+{
+    float:right;
+}
+.Marks
+{
+    margin:0 0px 0 20px;
+    float:right;
+}
+
+div.QuestionHeader
+{
+    border-color:Black;
+    border-bottom-color:White;
+    border-style:solid;
+    border-width:1px;
+    padding: 10px;
+    min-height:20px;
+    font-weight:bold;
+}
+
+div.Question
+{
+    border-color:Black;
+    border-style:solid;
+    border-width:1px;
+    padding: 10px;
+    min-height:420px;           /* height change here */
+    max-height:420px;           /* height change here */
+    font-size:1.2em;
+}
+
+div.divPassage
+{
+    float:left;
+    width:55%;
+    display:none;
+    padding: 10px;
+    margin-right:30px;
+    min-height:420px;           /* height change here */
+    max-height:420px;           /* height change here */
+    overflow-y: scroll;
+    font-size:1.2em;
+}
+
+div.QuestionFooter
+{
+    border-color:Black;
+    border-top-color:White;
+    border-style:solid;
+    border-width:1px;
+    padding: 10px;
+    min-height:20px;
+    text-align:right;
+}
+
+/* Left Panel Item Ends here */
+
+/* For Question Paper */
+table.QPQuestion
+{
+    font-size:1.2em;
+    padding: 6px;
+    width:99%;
+    margin-bottom:10px;
+    border-collapse:collapse;
+    background-color:#fff;
+}
+
+.QPQuestion td
+{
+    padding: 4px 4px 16px 4px;
+    vertical-align:top;
+}
+
+.QPQuestion .tdnum
+{
+    width:36px;
+    background-color:#eee;
+}
+
+/* Options for questions */
+table.options
+{
+    border-collapse:collapse;
+    border:none;
+}
+.options td
+{
+    padding:2px;
+    vertical-align:top;
+}
+.options .seq
+{
+    width:16px;
+}
+
+/* Table for Matching */
+table.matching
+{
+    border-collapse:collapse;
+    border:1px solid #aaa;
+    empty-cells:show;
+}
+.matching th
+{
+    background-color:#ddd;
+    border:1px solid #aaa;
+}
+.matching td
+{
+    border:1px solid #aaa;
+    padding-right:4px;
+}
+.matching .tdnum
+{
+    width:36px;
+    text-align:center;
+    font-weight:bold;
+}
+/* ---------------- */
+
+div.QuestionWithPassage
+{
+    border-color:Black;
+    border-style:solid;
+    border-width:1px;
+    padding: 10px;
+    min-height:400px;
+    font-weight:bold;
+}
+
+.QuestionNo
+{
+    float:left;
+}
+
+/* Popup WIndows */
+.overlay {
+    position:absolute;
+    top:45px;
+    bottom:5px;
+    left:5px;
+    right:285px;
+    width:auto;
+    height:auto;
+    z-index:1000;
+    background-color:#eee;
+    border:1px solid #000;
+    display:block;
+    overflow-y: scroll;
+    padding: 5px 8px 5px 8x;
+  }
+
+.hidden { display:none;}
+
+.divbackButton
+{
+    height:40px;
+    width:100%;
+}
+
+#userInfoInner
+{
+    margin-top:100px;
+    width:300px;
+    height:100px;
+    border:2px solid #999;
+    padding:12px;
+}
+
+#userInfoInner .tdhead
+{
+    width:110px;
+    text-align:right;
+    font-weight:bold;
+}
+#userInfoInner .tdvalue
+{
+    text-align:left;
+}
+
+/* ---------------- */
+
+div.MarkForReview
+{
+    float:left;
+}
+
+#divFeedbackForm
+{
+    text-align:left;
+    width:60%;
+    margin-left:50px;
+}
+
+.FeedbackText
+{
+    width:470px;
+    height:80px;
+    margin-top:6px;
+}
+
+.left20
+{
+    margin-left:20px;
+}
+
+ol
+{
+  margin-left:1em;
+  padding-left:1em;
+}
+
+#txtdscriptive {
+    border: 2px solid #999;
+}

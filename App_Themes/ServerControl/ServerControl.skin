@@ -1,0 +1,14 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+2. Default skin. The SkinId is not defined. Only one default
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:TextBox runat="server" Font-Names="Verdana" Font-Size="11px" Height="20px" Width="150px" BorderWidth="1px"  BackColor="AliceBlue" BorderStyle="Solid"  BorderColor="#58A7E0" />
+
+<asp:DropDownList runat="server"  Width="160px"  BackColor="AliceBlue" BorderStyle="Solid" BorderColor="#6CA017"   ForeColor="Black"></asp:DropDownList>

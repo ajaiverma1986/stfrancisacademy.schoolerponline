@@ -1,0 +1,179 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+div.sdmenu {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.foractive-cat {
+    border-left: 3px solid #25405d !important;
+}
+
+div.sdmenu div {
+    overflow: hidden;
+}
+
+    div.sdmenu div img {
+        float: left;
+        margin-top: 16px;
+        margin-left: 27px;
+        width: 20px;
+    }
+
+    div.sdmenu div.collapsed {
+        height: auto;
+        background: #f9f9f9;
+        width: 256px;
+        border-bottom: 1px solid #d2d2d2;
+        padding-bottom: 7px;
+    }
+
+    div.sdmenu div span.hover {
+        background: #2D9FDD url(linkarrow.gif) no-repeat right center;
+        background: url(linkarrow.gif) no-repeat right center;
+        color: #2381e9;
+        background-color: #fff;
+        width: 175px;
+    }
+
+    div.sdmenu div span {
+        display: block;
+        padding: 19px 25px 18px 42px;
+        font-weight: bold;
+        color: #34495e;
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 0px;
+        background-color: #ebebeb !important;
+        border-left: 3px solid #ebebeb;
+    }
+
+        div.sdmenu div span::first-letter {
+            text-transform: capitalize;
+        }
+
+        div.sdmenu div span img {
+            float: right;
+            height: 8px;
+            margin-top: 2px;
+            width: auto;
+        }
+
+div.sdmenu a :nth-child(last) {
+    background: #fff url(../images/downarrow.png) no-repeat!important;
+}
+
+div.sdmenu div a {
+    width: 158px;
+    padding: 8px 10px 8px 33px;
+    display: block;
+    color: #3b3a3a;
+    margin: 0px;
+    background: url(../images/inner-menu-img.png) 14px 11px no-repeat;
+    margin-left: 28px;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+div.sdmenu div .active > a {
+    background: #2D9FDD url(linkarrow.gif) no-repeat right center;
+    background: #389bcf url(linkarrow.gif) no-repeat right center;
+    color: #2381e9;
+    background-color: #fff;
+    width: 175px;
+}
+/*div.sdmenu div a.current
+{
+	background:#2D9FDD url(linkarrow.gif) no-repeat right center;
+    background: url(linkarrow.gif) no-repeat right center;
+	color:#2381e9;
+       background-color:#fff;
+        width:175px;
+}*/
+/*div.sdmenu div a:hover {
+        text-decoration: none;
+
+        color: #2381e9;
+        background-color: #fff;
+        width: 175px;
+    }*/
+
+@media screen and (max-width:1280px) {
+    div.sdmenu div.collapsed {
+        width: 242px;
+        background: rgba(0, 0, 0, 0) url("../images/icon-arrow.png") no-repeat scroll 225px center;
+    }
+
+    div.sdmenu div span {
+        padding: 19px 25px 18px 45px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    div.sdmenu div.collapsed {
+        width: 195px;
+        background: rgba(0, 0, 0, 0) url("../images/icon-arrow.png") no-repeat scroll 178px center;
+    }
+}
+
+@media screen and (max-width:980px) {
+    div.sdmenu div.collapsed {
+        width: 205px;
+        background: rgba(0, 0, 0, 0) url("../images/icon-arrow.png") no-repeat scroll 178px center;
+    }
+
+    div.sdmenu div span {
+        padding: 19px 25px 18px 35px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:800) {
+    div.sdmenu div.collapsed {
+        width: 191px;
+        background: rgba(0, 0, 0, 0) url("../images/icon-arrow.png") no-repeat scroll 178px center;
+    }
+
+    div.sdmenu div span {
+        padding: 19px 25px 18px 35px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    div.sdmenu div.collapsed {
+        width: 100%;
+        background: rgba(0, 0, 0, 0) url("../images/icon-arrow1.png") no-repeat scroll right center;
+    }
+
+    div.sdmenu div span {
+        padding: 19px 25px 18px 35px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+
+    div.sdmenu div a {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:640px) {
+    div.sdmenu div span {
+        padding: 19px 25px 18px 40px;
+        font-size: 13px;
+    }
+
+    div.sdmenu {
+        font-size: 12px;
+    }
+}

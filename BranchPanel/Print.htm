@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%=ConfigurationManager.AppSettings["titleBar"].ToString()%></title>
+    <style type="text/css">
+        body {
+            background-color: #ffffff;
+            font-size: 8pt;
+            text-transform: capitalize;
+            color: #000000;
+            font-family: Verdana;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="d" style="width: 1000px;">
+        </div>
+    </center>
+    <script language="javascript" type="text/javascript">
+        var str = window.opener.document.getElementById("printT").innerHTML;
+        document.getElementById("d").innerHTML = str;
+        document.getElementById("p").style.display = "none";
+        if (document.getElementById("Button2") != null)
+            document.getElementById("Button2").style.display = "none";
+        var i = document.writeln('<center><img id="imgP" src="../images/but_print.gif" alt="Print" title="Print" onclick="javascript:return PriT();" /></center>');
+        document.getElementById("tdButton").appendChild(i);
+
+        function PriT() {
+            document.getElementById("imgP").style.display = "none";
+            window.print();
+        }
+    </script>
+</body>
+</html>

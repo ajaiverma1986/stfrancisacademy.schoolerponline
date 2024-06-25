@@ -1,0 +1,9 @@
+<public:component lightweight="true">
+<PUBLIC:ATTACH EVENT="oncontentready"	HANDLER="doInit" />
+<script language="jscript">
+
+    function doInit() {
+        window.render_spring_image(this);
+    }
+</script>
+</public:component>
